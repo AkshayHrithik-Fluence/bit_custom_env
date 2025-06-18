@@ -15,7 +15,7 @@
         "version": "",
         "defaultScope": "my-scope",
         "mainFile": "index.ts",
-        "rootDir": "components/button",
+        "rootDir": "my-scope/components/button",
         "config": {
             "my-scope/my-new-env": {},
             "teambit.envs/envs": {
