@@ -1,0 +1,16 @@
+[
+  {
+    "id": {
+      "scope": "bitdev.react",
+      "name": "react-env"
+    },
+    "head": "99ba2cbaff13f0432600d6c06762786a9384c6f4"
+  },
+  {
+    "id": {
+      "scope": "bitdev.react",
+      "name": "preview/react-docs-template"
+    },
+    "head": "b973a716adea66a5aaa0a4ca464d08127e2bcaa6"
+  }
+]
