@@ -12,5 +12,40 @@
       "name": "preview/react-docs-template"
     },
     "head": "b973a716adea66a5aaa0a4ca464d08127e2bcaa6"
+  },
+  {
+    "id": {
+      "scope": "bitdev.react",
+      "name": "webpack/refresh-overlay"
+    },
+    "head": "92343132399476858e7f5f07a0760b51e1e62162"
+  },
+  {
+    "id": {
+      "scope": "bitdev.react",
+      "name": "generators/react-starters"
+    },
+    "head": "4b767dda5c3f1face85b4c4c605c85972923e528"
+  },
+  {
+    "id": {
+      "scope": "bitdev.react",
+      "name": "generators/react-templates"
+    },
+    "head": "327d7ba80f100bb8112bb701c75d4d4293b90e03"
+  },
+  {
+    "id": {
+      "scope": "bitdev.react",
+      "name": "eslint/eslint-config-bit-react"
+    },
+    "head": "b9171a8746359089cd7bcdeee0cb10fe1ff5ee63"
+  },
+  {
+    "id": {
+      "scope": "bitdev.react",
+      "name": "preview/react-docs-app"
+    },
+    "head": "643b32f6f06a649c86191501aa742c657bd8b85a"
   }
 ]

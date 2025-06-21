@@ -5,8 +5,9 @@
     "moduleResolution": "bundler",
     "target": "ES2022",
     "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx",
     "esModuleInterop": true,
-    "types": ["vitest/globals", "@testing-library/jest-dom"]
+    "types": ["vitest/globals", "@testing-library/jest-dom"],
   },
   "exclude": ["artifacts", "public", "dist", "node_modules", "package.json", "**/*.cjs"],
   "include": ["**/*", "**/*.json"]

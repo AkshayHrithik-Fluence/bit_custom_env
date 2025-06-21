@@ -5,5 +5,173 @@
       "name": "mounter"
     },
     "head": "2756443c3016daf575e91a6bb69e9356b49f90cb"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "internal/base-react-env"
+    },
+    "head": "a8895a700d60f77cd70003f37d68e740081fd174"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "ui/component-highlighter"
+    },
+    "head": "a8d9b8c2f55312c1a6cc10e719fdaa9a2b48b376"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "ui/highlighter/component-metadata/bit-component-meta"
+    },
+    "head": "98b6368f93cee98cf10d8c341291d6766316eeb7"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "modules/dom-to-react"
+    },
+    "head": "959d4e580211041b5b22f041d0d8016bc38f76d8"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "ui/hover-selector"
+    },
+    "head": "a16c999d8467bef1645d33ac21694ce646b6b1c2"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "generator/react-templates"
+    },
+    "head": "53628f1eaf2ee9b4aced4a1a7b63f96f39b8ed5f"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "eslint-config-bit-react"
+    },
+    "head": "10bdf8ed52484fc1b516953f40d6f649ef43c437"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "react-env"
+    },
+    "head": "b1d8708e0144483d428daf84f9c0336656a049c5"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "webpack/react-webpack"
+    },
+    "head": "a44136f2355c44d4a37ae1f6014f8eb82f5888c1"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "babel/bit-react-transformer"
+    },
+    "head": "4990810aa30b4e04b9f630b0055279b4d3830ddc"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "v17/docs-template"
+    },
+    "head": "637c03b2b6161b778048de94f0774c9ca1268d95"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "ui/docs-app"
+    },
+    "head": "05e081dfc9d5c4a3e71fece7967cac5e1c5793db"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "ui/docs/compositions-carousel"
+    },
+    "head": "00aca13046826492d76f5900b00eed0024e04eda"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "ui/error-fallback"
+    },
+    "head": "785395f127b666ce63fc5b2c25287a15148e7a30"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "ui/docs/apply-providers"
+    },
+    "head": "90eb0b6ca6ae13109a4a91e5f7532a3dca7cf9fc"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "ui/docs/docs-content"
+    },
+    "head": "45d4c38cf5489f215a0fd605567dfc8924cf8e69"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "ui/docs/properties-table"
+    },
+    "head": "32464b6937a7adfdd50124732afad2906749495e"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "apps/react-app-types"
+    },
+    "head": "aa99e9a38e9c2b00b5cee895ada980f59442859e"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "rendering/ssr"
+    },
+    "head": "ff39f1b2e1479c4545111598dbb5c1066678e1be"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "generator/react-starters"
+    },
+    "head": "f604755cda9d96e3890cfd0b4bb0ed5a398f3382"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "jest/react-jest"
+    },
+    "head": "168a0d54c55ef870f4bf293e4ab2558b92f23b79"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "v17/mounter"
+    },
+    "head": "1d842c330c13d1b7cd3529209f57949764cb6fcd"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "v17/react-env"
+    },
+    "head": "ce1a3190d8ff2cf52c6c8c1ca7ef87382304f75f"
+  },
+  {
+    "id": {
+      "scope": "teambit.react",
+      "name": "ui/highlighter-provider"
+    },
+    "head": "defc136e65fd6da60a3a2cda5a353250360c3687"
   }
 ]

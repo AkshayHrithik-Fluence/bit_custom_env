@@ -23,6 +23,14 @@
             }
         }
     },
+    "header": {
+        "name": "header",
+        "scope": "",
+        "version": "",
+        "defaultScope": "my-scope",
+        "mainFile": "index.ts",
+        "rootDir": "my-scope/components/header"
+    },
     "my-new-env": {
         "name": "my-new-env",
         "scope": "",
@@ -36,6 +44,14 @@
                 "env": "bitdev.general/envs/bit-env"
             }
         }
+    },
+    "theme": {
+        "name": "theme",
+        "scope": "",
+        "version": "",
+        "defaultScope": "my-scope",
+        "mainFile": "utils/index.ts",
+        "rootDir": "my-scope/components/theme"
     },
     "$schema-version": "17.0.0"
 }

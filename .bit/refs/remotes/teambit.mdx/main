@@ -5,5 +5,40 @@
       "name": "ui/mdx-scope-context"
     },
     "head": "b5ebce0ac69289dfa0429730602604a73d4ca282"
+  },
+  {
+    "id": {
+      "scope": "teambit.mdx",
+      "name": "ui/mdx-layout"
+    },
+    "head": "970e45ed632faa9a4f6ac5d728314551eb8433a7"
+  },
+  {
+    "id": {
+      "scope": "teambit.mdx",
+      "name": "ui/docs/link"
+    },
+    "head": "2111030d8b2c000b5bb2885bb0d223e9f724fec2"
+  },
+  {
+    "id": {
+      "scope": "teambit.mdx",
+      "name": "ui/docs/snippet"
+    },
+    "head": "0f28127bc7f5a6a231f59b70253e3843e9619eb1"
+  },
+  {
+    "id": {
+      "scope": "teambit.mdx",
+      "name": "modules/mdx-loader"
+    },
+    "head": "b9e306066d4fc33805b3e9d3880237ee712fad2b"
+  },
+  {
+    "id": {
+      "scope": "teambit.mdx",
+      "name": "modules/mdx-compiler"
+    },
+    "head": "e6e4dfa0b0b0610a61be87d8240628c97982e91a"
   }
 ]
