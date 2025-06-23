@@ -1,8 +1,12 @@
 import { fireEvent, screen } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
-import renderComponent from "@toolkit/__mocks__/renderComponent";
 import { ThemeModeContext } from "my-scope/theme";
 import { ThemeMode,lightTheme } from "my-scope/theme";
+import {MemoryRouter} from "react-router-dom"
+import { ThemeProvider } from "@emotion/react";
+import { Theme } from "@mui/material/styles";
+import { render, RenderResult } from "@testing-library/react";
+import { ReactNode } from "react";
 
 import Header, {
     HeaderBrand,
@@ -17,11 +21,7 @@ const mockUser = {
     email: "john.doe@example.com",
 };
 
-import { ThemeProvider } from "@emotion/react";
-import { Theme } from "@mui/material/styles";
-import { render, RenderResult } from "@testing-library/react";
-import { ReactNode } from "react";
-import { MemoryRouter } from "react-router-dom";
+
 
 type RenderComponentOptions = {
     theme?: Theme; // Allows overriding the default theme
