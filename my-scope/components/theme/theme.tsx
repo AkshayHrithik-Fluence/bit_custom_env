@@ -1,6 +1,140 @@
 import { createTheme, PaletteColor } from "@mui/material/styles";
 
 import "@mui/material/styles";
+
+// Type augmentation for custom theme properties (TypeScript only, not emitted to JS)
+declare module "@mui/material/styles" {
+  interface Palette {
+    customColors: {
+      primary: PaletteColor;
+      secondary: PaletteColor;
+      neutral: PaletteColor;
+    };
+    bg: {
+      main: string;
+      hover: string;
+      active: string;
+      subdued: {
+        main: string;
+        hover: string;
+        active: string;
+      };
+    };
+    border: {
+      main: string;
+      hover: string;
+      subdued: {
+        main: string;
+      };
+      primary: {
+        main: string;
+      };
+    };
+    critical: PaletteColor;
+  }
+
+  interface PaletteOptions {
+    customColors?: {
+      primary?: PaletteColor;
+      secondary?: PaletteColor;
+      neutral?: PaletteColor;
+    };
+    bg?: {
+      main?: string;
+      hover?: string;
+      active?: string;
+      subdued?: {
+        main?: string;
+        hover?: string;
+        active?: string;
+      };
+    };
+    border?: {
+      main?: string;
+      hover?: string;
+      subdued?: {
+        main?: string;
+      };
+      primary?: {
+        main?: string;
+      };
+    };
+    critical?: PaletteColor;
+  }  // Note: PaletteColor may already have hover/active in newer MUI versions
+  // Commenting out to avoid conflicts
+  // interface PaletteColor {
+  //   hover: string;
+  //   active: string;
+  // }
+
+  interface TypeText {
+    main: string;
+    subdued: string;
+    strong: string;
+    oncolor: string;
+  }
+
+  interface TypographyVariants {
+    customHeading: React.CSSProperties;
+    base: React.CSSProperties;
+    sm: React.CSSProperties;
+  }
+  interface TypographyVariantsOptions {
+    customHeading?: React.CSSProperties;
+    base?: React.CSSProperties;
+    sm?: React.CSSProperties;
+  }
+  // Extend TypographyPropsVariantOverrides to include custom variants
+  // (moved to top-level module declaration above)
+  interface Theme {
+    rounded: {
+      sm: string;
+      base: string;
+      md: string;
+      lg: string;
+      xl: string;
+      "2xl": string;
+      "3xl": string;
+      full: string;
+    };
+  }
+
+  interface ThemeOptions {
+    rounded?: {
+      sm?: string;
+      base?: string;
+      md?: string;
+      lg?: string;
+      xl?: string;
+      "2xl"?: string;
+      "3xl"?: string;
+      full?: string;
+    };
+  }
+}
+
+declare module "@mui/material/Typography" {
+  interface TypographyPropsVariantOverrides {
+    customHeading: true;
+    base: true;
+    sm: true;
+  }
+}
+
+declare module "@mui/material/Button" {
+  interface ButtonPropsSizeOverrides {
+    xSmall: true;
+  }
+  interface ButtonPropsColorOverrides {
+    critical: true;
+  }
+}
+
+declare module "@mui/material/TextField" {
+  interface TextFieldPropsSizeOverrides {
+    large: true;
+  }
+}
 import {
     roundedValue,
     lightBoxShadow,
@@ -61,26 +195,24 @@ const baseTheme = createTheme({
                             palette[
                                 ownerState.color as keyof typeof palette
                             ] as PaletteColor
-                        ).main,
-                        "&:hover": {
+                        ).main,                        "&:hover": {
                             backgroundColor: (
                                 palette[
                                     ownerState.color as keyof typeof palette
-                                ] as PaletteColor
+                                ] as any
                             ).hover,
                         },
                         "&:active": {
                             backgroundColor: (
                                 palette[
                                     ownerState.color as keyof typeof palette
-                                ] as PaletteColor
+                                ] as any
                             ).active,
-                        },
-                        "&.Mui-disabled": {
+                        },                        "&.Mui-disabled": {
                             backgroundColor: (
                                 palette[
                                     ownerState.color as keyof typeof palette
-                                ] as PaletteColor
+                                ] as any
                             ).main,
                             color: palette.text.oncolor,
                             opacity: 0.4,

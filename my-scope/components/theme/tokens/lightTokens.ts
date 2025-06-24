@@ -1,4 +1,4 @@
-import { applyToPrimitiveVal } from "../utils/index";
+import { applyToPrimitiveVal } from "../utils";
 
 const rawLightPalette = {
     primary: {

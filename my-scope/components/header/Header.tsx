@@ -1,4 +1,70 @@
 import { Button, Stack, useTheme } from "@mui/material";
+import styled from "@emotion/styled"; // Ensure @emotion/styled is explicitly imported
+
+declare module "@mui/material/Typography" {
+  interface TypographyPropsVariantOverrides {
+    customHeading: true;
+    base: true;
+    sm: true;
+  }
+}
+
+// Type augmentation for custom theme properties (TypeScript only, not emitted to JS)
+declare module "@mui/material/styles" {
+  interface Palette {
+    customColors: {
+      primary: import("@mui/material/styles").PaletteColor;
+      secondary: import("@mui/material/styles").PaletteColor;
+      neutral: import("@mui/material/styles").PaletteColor;
+    };
+    bg: {
+      main: string;
+      hover: string;
+      active: string;
+      subdued: {
+        main: string;
+        hover: string;
+        active: string;
+      };
+    };
+    border: {
+      main: string;
+      hover: string;
+      subdued: {
+        main: string;
+      };
+      primary: {
+        main: string;
+      };
+    };
+    critical: import("@mui/material/styles").PaletteColor;
+  }
+
+  interface TypeText {
+    main: string;
+    subdued: string;
+    strong: string;
+    oncolor: string;  }
+
+  interface TypographyVariants {
+    customHeading: React.CSSProperties;
+    base: React.CSSProperties;
+    sm: React.CSSProperties;
+  }
+  
+  interface Theme {
+    rounded: {
+      sm: string;
+      base: string;
+      md: string;
+      lg: string;
+      xl: string;
+      "2xl": string;
+      "3xl": string;
+      full: string;
+    };
+  }
+}
 import AppBar from "@mui/material/AppBar";
 import Avatar from "@mui/material/Avatar";
 import Box from "@mui/material/Box";

@@ -44,13 +44,12 @@
                 "env": "bitdev.general/envs/bit-env"
             }
         }
-    },
-    "theme": {
+    },    "theme": {
         "name": "theme",
         "scope": "",
         "version": "",
         "defaultScope": "my-scope",
-        "mainFile": "utils/index.ts",
+        "mainFile": "index.tsx",
         "rootDir": "my-scope/components/theme"
     },
     "$schema-version": "17.0.0"

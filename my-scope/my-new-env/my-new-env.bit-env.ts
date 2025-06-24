@@ -47,7 +47,33 @@ export class CustomReactEnv extends ReactEnv {
       typescript: '^5.0.0',
       '@testing-library/react': '^16.0.0',
       '@testing-library/jest-dom': '^6.0.0',
-      jsdom: '^24.0.0'
+      jsdom: '^24.0.0',
+      '@emotion/react': '^11.14.0',
+      '@emotion/styled': '^11.14.0',
+      '@mui/material': '^7.0.1',
+      '@mui/icons-material': '^7.0.1'
+    };
+  }
+
+  getDevDependencies() {
+    return {
+      '@emotion/react': '^11.14.0',
+      '@emotion/styled': '^11.14.0',
+      '@mui/material': '^7.0.1',
+      '@mui/icons-material': '^7.0.1',
+      '@types/react': '^18.0.0',
+      '@types/react-dom': '^18.0.0'
+    };
+  }
+
+  getPeerDependencies() {
+    return {
+      '@emotion/react': '^11.14.0',
+      '@emotion/styled': '^11.14.0',
+      '@mui/material': '^7.0.1',
+      '@mui/icons-material': '^7.0.1',
+      'react': '^18.0.0',
+      'react-dom': '^18.0.0'
     };
   }
 

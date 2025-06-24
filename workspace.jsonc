@@ -57,7 +57,9 @@
         "@bitdev/react.react-env": "^4.1.6",
         "@teambit/react.mounter": "^1.0.48",
         "@vitejs/plugin-react": "^4.5.2",
-        "@vitest/coverage-c8": "^0.33.0"
+        "@vitest/coverage-c8": "^0.33.0",
+        "@emotion/react": "^11.14.0",
+        "@emotion/styled": "^11.14.0"
       },
       "peerDependencies": {}
     },

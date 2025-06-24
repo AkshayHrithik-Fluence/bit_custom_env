@@ -1,3 +1,5 @@
+import styled from '@emotion/styled'; // Ensure @emotion/styled is explicitly imported
+
 export * from './customThemeValues';
 export * from './theme';
 import {useThemeMode} from "./hooks/useThemeMode";

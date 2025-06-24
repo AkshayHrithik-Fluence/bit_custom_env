@@ -1,7 +1,7 @@
 import { fireEvent, screen } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
-import { ThemeModeContext } from "my-scope/theme";
-import { ThemeMode,lightTheme } from "my-scope/theme";
+import { ThemeModeContext } from "@my-scope/theme";
+import { ThemeMode,lightTheme } from "@my-scope/theme";
 import {MemoryRouter} from "react-router-dom"
 import { ThemeProvider } from "@emotion/react";
 import { Theme } from "@mui/material/styles";
