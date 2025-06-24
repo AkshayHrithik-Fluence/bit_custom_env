@@ -1,5 +1,6 @@
 import React from 'react';
 import Header, { HeaderBrand, HeaderNavigation, HeaderUserProgfile, Routes } from './Header';
+import { ThemeContextProvider } from '@my-scope/theme';
 
 export const HeaderComposition = () => {
   const user = {
@@ -14,6 +15,7 @@ export const HeaderComposition = () => {
   ];
 
   return (
+    <ThemeContextProvider>
     <Header brandName="My App" user={user} routes={routes}>
       <HeaderBrand>
         <div>Custom Brand</div>
@@ -25,5 +27,6 @@ export const HeaderComposition = () => {
         <div>Custom User Profile</div>
       </HeaderUserProgfile>
     </Header>
+    </ThemeContextProvider>
   );
 };

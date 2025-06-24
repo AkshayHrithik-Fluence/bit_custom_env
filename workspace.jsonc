@@ -55,11 +55,13 @@
         "@bitdev/react.app-types.vite-react": "^2.1.7",
         "@bitdev/react.preview.react-docs-template": "^0.0.7",
         "@bitdev/react.react-env": "^4.1.6",
+        "@emotion/react": "^11.14.0",
+        "@emotion/styled": "^11.14.0",
         "@teambit/react.mounter": "^1.0.48",
         "@vitejs/plugin-react": "^4.5.2",
         "@vitest/coverage-c8": "^0.33.0",
-        "@emotion/react": "^11.14.0",
-        "@emotion/styled": "^11.14.0"
+        "react-router": "^7.1.5",
+        "react-router-dom": "^7.5.0"
       },
       "peerDependencies": {}
     },
